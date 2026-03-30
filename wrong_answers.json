@@ -1,0 +1,54 @@
+[
+  {
+    "quiz_id": "7795584d-a42e-4d69-9174-d5882d26fae0",
+    "timestamp": "2026-03-30T22:16:47.262481",
+    "chapter_name": "Chapter Two - Asset Classes",
+    "section_number": 8,
+    "section_title": "Foreign Exchange",
+    "question_number": 7,
+    "question_text": "Using interest rate parity, if the GBP/USD spot rate is 1.5220, UK 3-month interest rate is 4.88% p.a., and US 3-month interest rate is 3.20% p.a., what is the 3-month forward rate for GBP/USD?",
+    "options": {
+      "A": "1.5283",
+      "B": "1.5157",
+      "C": "1.5350",
+      "D": "1.5220"
+    },
+    "selected_answer": "C",
+    "correct_answer": "B",
+    "explanation": "Applying interest rate parity formula results in a forward rate of 1.5157, reflecting UK rates higher than US.",
+    "source_reference": "Interest rate parity formula example",
+    "selected_option_feedback": "Incorrect: This overstates the rate beyond formula results.",
+    "all_option_feedback": {
+      "A": "Incorrect: This is higher than spot, which doesn't match interest rate differential.",
+      "B": "Correct: Calculated forward rate using interest rate parity is 1.5157.",
+      "C": "Incorrect: This overstates the rate beyond formula results.",
+      "D": "Incorrect: Forward rates differ from spot due to interest rate differentials."
+    }
+  },
+  {
+    "quiz_id": "b5742608-9b97-4ca7-b6f0-03fe7c168e26",
+    "timestamp": "2026-03-30T22:32:37.958141",
+    "chapter_name": "Chapter Two - Asset Classes",
+    "section_number": 9,
+    "section_title": "Collective Investment Schemes (CISs)",
+    "question_number": 14,
+    "question_text": "What is the term used in the US for 'gearing' in unregulated collective investment schemes?",
+    "options": {
+      "A": "Leveraging",
+      "B": "Leverage",
+      "C": "Margin trading",
+      "D": "Hedging"
+    },
+    "selected_answer": "A",
+    "correct_answer": "B",
+    "explanation": "The US term equivalent to gearing is 'leverage'.",
+    "source_reference": "Risks of Unregulated Collective Investment Schemes (UCISs) - Gearing",
+    "selected_option_feedback": "Incorrect: Leveraging is a related concept but not the exact term used.",
+    "all_option_feedback": {
+      "A": "Incorrect: Leveraging is a related concept but not the exact term used.",
+      "B": "Correct: Leverage is the US term directly equivalent to gearing.",
+      "C": "Incorrect: Margin trading refers to borrowing to trade securities, a different concept.",
+      "D": "Incorrect: Hedging is risk mitigation, unrelated to borrowing or gearing."
+    }
+  }
+]

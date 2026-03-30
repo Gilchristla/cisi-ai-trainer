@@ -1,0 +1,4734 @@
+{
+  "source_pdf": "textbook.pdf",
+  "total_pages": 353,
+  "detected_chapter_starts": [
+    {
+      "chapter_number": 1,
+      "chapter_name": "Chapter One - The Financial Service Industry",
+      "page_number": 5,
+      "page_index": 4
+    },
+    {
+      "chapter_number": 2,
+      "chapter_name": "Chapter Two - Asset Classes",
+      "page_number": 17,
+      "page_index": 16
+    },
+    {
+      "chapter_number": 3,
+      "chapter_name": "Chapter Three - Markets",
+      "page_number": 102,
+      "page_index": 101
+    },
+    {
+      "chapter_number": 4,
+      "chapter_name": "Chapter Four - Primary Markets",
+      "page_number": 107,
+      "page_index": 106
+    },
+    {
+      "chapter_number": 5,
+      "chapter_name": "Chapter Five - Secondary Markets",
+      "page_number": 133,
+      "page_index": 132
+    },
+    {
+      "chapter_number": 6,
+      "chapter_name": "Chapter Six - Corporate Actions",
+      "page_number": 166,
+      "page_index": 165
+    },
+    {
+      "chapter_number": 7,
+      "chapter_name": "Chapter Seven - Clearing and Settlement",
+      "page_number": 192,
+      "page_index": 191
+    },
+    {
+      "chapter_number": 8,
+      "chapter_name": "Chapter Eight - Accounting Analysis",
+      "page_number": 216,
+      "page_index": 215
+    },
+    {
+      "chapter_number": 9,
+      "chapter_name": "Chapter Nine - Investment Management",
+      "page_number": 255,
+      "page_index": 254
+    }
+  ],
+  "summary": {
+    "chapters_expected": 9,
+    "chapters_detected": 9,
+    "records_created": 565,
+    "chapter_reports_count": 9
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_name": "Chapter One - The Financial Service Industry",
+      "page_start": 5,
+      "page_end": 16,
+      "expected_sections": [
+        {
+          "section_number": 1,
+          "section_title": "Introduction"
+        },
+        {
+          "section_number": 2,
+          "section_title": "Professional and Retail Business"
+        },
+        {
+          "section_number": 3,
+          "section_title": "Participants - Retail Sector"
+        },
+        {
+          "section_number": 4,
+          "section_title": "Participants - Wholesale Sector"
+        }
+      ],
+      "detected_sections": [
+        {
+          "section_number": 1,
+          "section_title": "Introduction",
+          "matched_title": "Introduction",
+          "page_number": 7,
+          "score": 1.0
+        },
+        {
+          "section_number": 2,
+          "section_title": "Professional and Retail Business",
+          "matched_title": "Professional and Retail Business",
+          "page_number": 8,
+          "score": 1.0
+        },
+        {
+          "section_number": 3,
+          "section_title": "Participants - Retail Sector",
+          "matched_title": "Participants - Retail Sector",
+          "page_number": 11,
+          "score": 1.0
+        },
+        {
+          "section_number": 4,
+          "section_title": "Participants - Wholesale Sector",
+          "matched_title": "Participants - Wholesale Sector",
+          "page_number": 14,
+          "score": 1.0
+        }
+      ],
+      "missing_sections": [],
+      "candidate_log": [
+        {
+          "page_number": 7,
+          "line_index": 0,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Introduction",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Introduction",
+          "score": 1.0
+        },
+        {
+          "page_number": 8,
+          "line_index": 9,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Professional and Retail Business",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Professional and Retail Business",
+          "score": 1.0
+        },
+        {
+          "page_number": 11,
+          "line_index": 24,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "Participants - Retail Sector",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Participants - Retail Sector",
+          "score": 1.0
+        },
+        {
+          "page_number": 14,
+          "line_index": 8,
+          "raw_candidate_number": 4,
+          "raw_candidate_title": "Participants - Wholesale Sector",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Participants - Wholesale Sector",
+          "score": 1.0
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "chapter_number": 2,
+      "chapter_name": "Chapter Two - Asset Classes",
+      "page_start": 17,
+      "page_end": 101,
+      "expected_sections": [
+        {
+          "section_number": 1,
+          "section_title": "Equities"
+        },
+        {
+          "section_number": 2,
+          "section_title": "Debt Instruments"
+        },
+        {
+          "section_number": 3,
+          "section_title": "Government Debt"
+        },
+        {
+          "section_number": 4,
+          "section_title": "Corporate Debt"
+        },
+        {
+          "section_number": 5,
+          "section_title": "Cash Assets"
+        },
+        {
+          "section_number": 6,
+          "section_title": "Eurobonds"
+        },
+        {
+          "section_number": 7,
+          "section_title": "Other Securities"
+        },
+        {
+          "section_number": 8,
+          "section_title": "Foreign Exchange"
+        },
+        {
+          "section_number": 9,
+          "section_title": "Collective Investment Schemes (CISs)"
+        },
+        {
+          "section_number": 10,
+          "section_title": "Structured Products"
+        }
+      ],
+      "detected_sections": [
+        {
+          "section_number": 1,
+          "section_title": "Equities",
+          "matched_title": "Equities",
+          "page_number": 18,
+          "score": 1.0
+        },
+        {
+          "section_number": 2,
+          "section_title": "Debt Instruments",
+          "matched_title": "Debt Instruments",
+          "page_number": 22,
+          "score": 1.0
+        },
+        {
+          "section_number": 3,
+          "section_title": "Government Debt",
+          "matched_title": "Government Debt",
+          "page_number": 39,
+          "score": 1.0
+        },
+        {
+          "section_number": 4,
+          "section_title": "Corporate Debt",
+          "matched_title": "Corporate Debt",
+          "page_number": 48,
+          "score": 1.0
+        },
+        {
+          "section_number": 5,
+          "section_title": "Cash Assets",
+          "matched_title": "Cash Assets",
+          "page_number": 58,
+          "score": 1.0
+        },
+        {
+          "section_number": 6,
+          "section_title": "Eurobonds",
+          "matched_title": "Eurobonds",
+          "page_number": 63,
+          "score": 1.0
+        },
+        {
+          "section_number": 7,
+          "section_title": "Other Securities",
+          "matched_title": "Other Securities",
+          "page_number": 65,
+          "score": 1.0
+        },
+        {
+          "section_number": 8,
+          "section_title": "Foreign Exchange",
+          "matched_title": "Foreign Exchange (FX)",
+          "page_number": 72,
+          "score": 0.8649
+        },
+        {
+          "section_number": 9,
+          "section_title": "Collective Investment Schemes (CISs)",
+          "matched_title": "Collective Investments",
+          "page_number": 81,
+          "score": 0.7586
+        },
+        {
+          "section_number": 10,
+          "section_title": "Structured Products",
+          "matched_title": "Structured Products",
+          "page_number": 94,
+          "score": 1.0
+        }
+      ],
+      "missing_sections": [],
+      "candidate_log": [
+        {
+          "page_number": 18,
+          "line_index": 0,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Equities",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Equities",
+          "score": 1.0
+        },
+        {
+          "page_number": 22,
+          "line_index": 0,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Debt Instruments",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Debt Instruments",
+          "score": 1.0
+        },
+        {
+          "page_number": 32,
+          "line_index": 39,
+          "raw_candidate_number": 2025,
+          "raw_candidate_title": "is not a leap year) and the year is 365 days long. ACT/ ACT counts are used by the",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 38,
+          "line_index": 10,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "/ (1 + r)n",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Equities",
+          "score": 0.0
+        },
+        {
+          "page_number": 39,
+          "line_index": 6,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "Government Debt",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Government Debt",
+          "score": 1.0
+        },
+        {
+          "page_number": 45,
+          "line_index": 11,
+          "raw_candidate_number": 21,
+          "raw_candidate_title": "separate securities: 20 STRIPS based on the coupons, which are entitled to just one of the",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 46,
+          "line_index": 11,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "The investor could buy a $5 million nominal coupon-paying Treasury with five years",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 46,
+          "line_index": 14,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "The investor could buy less than $5 million nominal, attempting to arrive at $5",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 46,
+          "line_index": 18,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "The investor could buy a $5 million strip with 5 years to maturity (essentially this is a",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 47,
+          "line_index": 39,
+          "raw_candidate_number": 15,
+          "raw_candidate_title": "years and over",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 48,
+          "line_index": 31,
+          "raw_candidate_number": 4,
+          "raw_candidate_title": "Corporate Debt",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Corporate Debt",
+          "score": 1.0
+        },
+        {
+          "page_number": 51,
+          "line_index": 7,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "The SPV is a separate entity from the originator of the assets, so the assets leave the",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Equities",
+          "score": 0.1277
+        },
+        {
+          "page_number": 51,
+          "line_index": 11,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "The SPV is a stand-alone entity, so, if the originator of the assets suffers bankruptcy,",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Debt Instruments",
+          "score": 0.1782
+        },
+        {
+          "page_number": 58,
+          "line_index": 13,
+          "raw_candidate_number": 5,
+          "raw_candidate_title": "Cash Assets",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Cash Assets",
+          "score": 1.0
+        },
+        {
+          "page_number": 61,
+          "line_index": 20,
+          "raw_candidate_number": 90,
+          "raw_candidate_title": "and 180 days. The security itself will be issued by a bank or other financial institution, and",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 63,
+          "line_index": 27,
+          "raw_candidate_number": 6,
+          "raw_candidate_title": "Eurobonds",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Eurobonds",
+          "score": 1.0
+        },
+        {
+          "page_number": 64,
+          "line_index": 3,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "The issuer appoints a lead manager - the issuer of a eurobond will appoint, and work",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 64,
+          "line_index": 8,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "The lead manager establishes a syndicate - for a sizeable eurobond issue, the lead",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Debt Instruments",
+          "score": 0.1237
+        },
+        {
+          "page_number": 64,
+          "line_index": 12,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "The syndicate distributes to its client base - the eurobonds are sold to the clients of",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Government Debt",
+          "score": 0.1569
+        },
+        {
+          "page_number": 65,
+          "line_index": 19,
+          "raw_candidate_number": 7,
+          "raw_candidate_title": "Other Securities",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Other Securities",
+          "score": 1.0
+        },
+        {
+          "page_number": 72,
+          "line_index": 4,
+          "raw_candidate_number": 8,
+          "raw_candidate_title": "Foreign Exchange (FX)",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Foreign Exchange",
+          "score": 0.8649
+        },
+        {
+          "page_number": 72,
+          "line_index": 12,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Spot transactions are immediate currency deals that are settled within two working",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Equities",
+          "score": 0.0667
+        },
+        {
+          "page_number": 72,
+          "line_index": 14,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Forward transactions involve currency deals that are agreed for a future date at a rate",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Debt Instruments",
+          "score": 0.1748
+        },
+        {
+          "page_number": 72,
+          "line_index": 28,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "It can wait until it receives the dollars and then execute a spot transaction.",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 72,
+          "line_index": 29,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "It can enter into a forward transaction to sell the dollars for yen in a month's time. This",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 76,
+          "line_index": 29,
+          "raw_candidate_number": 1944,
+          "raw_candidate_title": "were modified. The UK Government undertook a devaluation of the pound against the",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 81,
+          "line_index": 26,
+          "raw_candidate_number": 9,
+          "raw_candidate_title": "Collective Investments",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Collective Investment Schemes (CISs)",
+          "score": 0.7586
+        },
+        {
+          "page_number": 85,
+          "line_index": 25,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Trustees of a unit trust must be authorised by the FCA and be fully independent of the",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 85,
+          "line_index": 27,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Trustees are required to have capital in excess of £4 million and, for this reason, are",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 85,
+          "line_index": 29,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "The trust deed of each unit trust must clearly state its investment strategy and",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 85,
+          "line_index": 31,
+          "raw_candidate_number": 4,
+          "raw_candidate_title": "The limits and allowable investment areas for a unit trust fund are also laid out in the",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Corporate Debt",
+          "score": 0.0784
+        },
+        {
+          "page_number": 94,
+          "line_index": 11,
+          "raw_candidate_number": 10,
+          "raw_candidate_title": "Structured Products",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Structured Products",
+          "score": 1.0
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "chapter_number": 3,
+      "chapter_name": "Chapter Three - Markets",
+      "page_start": 102,
+      "page_end": 106,
+      "expected_sections": [
+        {
+          "section_number": 1,
+          "section_title": "The Primary and Secondary Markets"
+        }
+      ],
+      "detected_sections": [
+        {
+          "section_number": 1,
+          "section_title": "The Primary and Secondary Markets",
+          "matched_title": "The Primary and Secondary Markets",
+          "page_number": 103,
+          "score": 1.0
+        }
+      ],
+      "missing_sections": [],
+      "candidate_log": [
+        {
+          "page_number": 103,
+          "line_index": 0,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "The Primary and Secondary Markets",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "The Primary and Secondary Markets",
+          "score": 1.0
+        },
+        {
+          "page_number": 103,
+          "line_index": 7,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "The primary market, or the new issues market, facilitates new issues of securities. The",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "The Primary and Secondary Markets",
+          "score": 0.3761
+        },
+        {
+          "page_number": 103,
+          "line_index": 17,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "The secondary market is where existing securities are traded between investors. Stock",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "chapter_number": 4,
+      "chapter_name": "Chapter Four - Primary Markets",
+      "page_start": 107,
+      "page_end": 132,
+      "expected_sections": [
+        {
+          "section_number": 1,
+          "section_title": "Types of Offer"
+        },
+        {
+          "section_number": 2,
+          "section_title": "Participants in an Equity Offering Securities"
+        },
+        {
+          "section_number": 3,
+          "section_title": "Stock Exchanges"
+        },
+        {
+          "section_number": 4,
+          "section_title": "Bond Offerings"
+        }
+      ],
+      "detected_sections": [
+        {
+          "section_number": 1,
+          "section_title": "Types of Offer",
+          "matched_title": "Types of Offer",
+          "page_number": 108,
+          "score": 1.0
+        },
+        {
+          "section_number": 2,
+          "section_title": "Participants in an Equity Offering Securities",
+          "matched_title": "Participants in an Equity Offering",
+          "page_number": 120,
+          "score": 0.8608
+        },
+        {
+          "section_number": 3,
+          "section_title": "Stock Exchanges",
+          "matched_title": "Stock Exchanges",
+          "page_number": 124,
+          "score": 1.0
+        },
+        {
+          "section_number": 4,
+          "section_title": "Bond Offerings",
+          "matched_title": "Bond Offerings",
+          "page_number": 129,
+          "score": 1.0
+        }
+      ],
+      "missing_sections": [],
+      "candidate_log": [
+        {
+          "page_number": 108,
+          "line_index": 0,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Types of Offer",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Types of Offer",
+          "score": 1.0
+        },
+        {
+          "page_number": 108,
+          "line_index": 30,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "The decision - the issuing company (in conjunction with its advisers, particularly an",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Types of Offer",
+          "score": 0.1224
+        },
+        {
+          "page_number": 109,
+          "line_index": 0,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "The preparation of the prospectus - the prospectus is an official document that",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Participants in an Equity Offering Securities",
+          "score": 0.3548
+        },
+        {
+          "page_number": 109,
+          "line_index": 4,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "The sale of securities - the investment bank will lead-manage the sale and may well",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 110,
+          "line_index": 10,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Creating the SPAC",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Types of Offer",
+          "score": 0.0645
+        },
+        {
+          "page_number": 110,
+          "line_index": 17,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Raising capital from outside investors",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Participants in an Equity Offering Securities",
+          "score": 0.3133
+        },
+        {
+          "page_number": 110,
+          "line_index": 23,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "IPOing the SPAC",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Stock Exchanges",
+          "score": 0.3333
+        },
+        {
+          "page_number": 111,
+          "line_index": 0,
+          "raw_candidate_number": 4,
+          "raw_candidate_title": "Identifying the target",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Bond Offerings",
+          "score": 0.2778
+        },
+        {
+          "page_number": 111,
+          "line_index": 3,
+          "raw_candidate_number": 5,
+          "raw_candidate_title": "Raising further funding",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 111,
+          "line_index": 8,
+          "raw_candidate_number": 6,
+          "raw_candidate_title": "Gaining approval from the investors",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 111,
+          "line_index": 12,
+          "raw_candidate_number": 7,
+          "raw_candidate_title": "Completing the merger",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 112,
+          "line_index": 27,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "The decision - the issuing company decides to issue additional shares to raise capital",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Types of Offer",
+          "score": 0.18
+        },
+        {
+          "page_number": 112,
+          "line_index": 29,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "The preparation of the prospectus - this should be relatively easy, since the issuing",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 112,
+          "line_index": 31,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "The sale of securities - as in an IPO, the appointed investment bank will lead-manage",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 116,
+          "line_index": 3,
+          "raw_candidate_number": 2019,
+          "raw_candidate_title": "The IPO consisted of a base number of 3bn shares, representing 1.5% of the issued",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 118,
+          "line_index": 16,
+          "raw_candidate_number": 2018,
+          "raw_candidate_title": "Shares were offered directly to public investors from existing investors. No new shares",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 119,
+          "line_index": 32,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "The decision - the issuing company (in conjunction with its advisers, particularly an",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Types of Offer",
+          "score": 0.1224
+        },
+        {
+          "page_number": 120,
+          "line_index": 2,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "The preparation of the prospectus - the official document that outlines the terms of",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Participants in an Equity Offering Securities",
+          "score": 0.3256
+        },
+        {
+          "page_number": 120,
+          "line_index": 4,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "The sale of securities - the investment bank will manage the sale of the",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 120,
+          "line_index": 10,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Participants in an Equity Offering",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Participants in an Equity Offering Securities",
+          "score": 0.8608
+        },
+        {
+          "page_number": 124,
+          "line_index": 23,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "Stock Exchanges",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Stock Exchanges",
+          "score": 1.0
+        },
+        {
+          "page_number": 127,
+          "line_index": 39,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "That there is no restriction on the transferability of the shares.",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 127,
+          "line_index": 40,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "That the AIM company appoints two experts to assist it:",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Participants in an Equity Offering Securities",
+          "score": 0.2828
+        },
+        {
+          "page_number": 129,
+          "line_index": 7,
+          "raw_candidate_number": 4,
+          "raw_candidate_title": "Bond Offerings",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Bond Offerings",
+          "score": 1.0
+        },
+        {
+          "page_number": 131,
+          "line_index": 27,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Pitching - the issuer of the bonds will need to decide that a bond issue is appropriate",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 131,
+          "line_index": 33,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Indicative bid - during the pitching stage, the banks will detail their views of how",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 131,
+          "line_index": 35,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "Mandate announcement - once the issuer has decided upon the bank(s) to raise the",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Stock Exchanges",
+          "score": 0.0842
+        },
+        {
+          "page_number": 131,
+          "line_index": 38,
+          "raw_candidate_number": 4,
+          "raw_candidate_title": "Credit rating - given by one of the credit-rating agencies or an investment bank, this",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Bond Offerings",
+          "score": 0.101
+        },
+        {
+          "page_number": 132,
+          "line_index": 5,
+          "raw_candidate_number": 5,
+          "raw_candidate_title": "Roadshow - once the bank running the issue has been appointed, it will arrange and",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 132,
+          "line_index": 9,
+          "raw_candidate_number": 6,
+          "raw_candidate_title": "Listing - if the bond is to be listed it will need a prospectus to submit to the relevant",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 132,
+          "line_index": 11,
+          "raw_candidate_number": 7,
+          "raw_candidate_title": "Syndication - for larger bond issues there will be a number of banks acting for the",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "chapter_number": 5,
+      "chapter_name": "Chapter Five - Secondary Markets",
+      "page_start": 133,
+      "page_end": 165,
+      "expected_sections": [
+        {
+          "section_number": 1,
+          "section_title": "Trading Venues"
+        },
+        {
+          "section_number": 2,
+          "section_title": "Methods of Trading and Participants"
+        },
+        {
+          "section_number": 3,
+          "section_title": "Stock Exchanges"
+        },
+        {
+          "section_number": 4,
+          "section_title": "Indicies"
+        },
+        {
+          "section_number": 5,
+          "section_title": "Government Bond"
+        },
+        {
+          "section_number": 6,
+          "section_title": "Corporate Bond Markets"
+        },
+        {
+          "section_number": 7,
+          "section_title": "Dealing Methods"
+        }
+      ],
+      "detected_sections": [
+        {
+          "section_number": 1,
+          "section_title": "Trading Venues",
+          "matched_title": "Trading Venues",
+          "page_number": 134,
+          "score": 1.0
+        },
+        {
+          "section_number": 2,
+          "section_title": "Methods of Trading and Participants",
+          "matched_title": "Methods of Trading and Participants",
+          "page_number": 139,
+          "score": 1.0
+        },
+        {
+          "section_number": 3,
+          "section_title": "Stock Exchanges",
+          "matched_title": "Stock Exchanges",
+          "page_number": 144,
+          "score": 1.0
+        },
+        {
+          "section_number": 4,
+          "section_title": "Indicies",
+          "matched_title": "Indices",
+          "page_number": 149,
+          "score": 0.9333
+        },
+        {
+          "section_number": 5,
+          "section_title": "Government Bond",
+          "matched_title": "Government Bond Markets",
+          "page_number": 156,
+          "score": 0.7895
+        },
+        {
+          "section_number": 6,
+          "section_title": "Corporate Bond Markets",
+          "matched_title": "Corporate Bond Markets",
+          "page_number": 161,
+          "score": 1.0
+        },
+        {
+          "section_number": 7,
+          "section_title": "Dealing Methods",
+          "matched_title": "Dealing Methods",
+          "page_number": 163,
+          "score": 1.0
+        }
+      ],
+      "missing_sections": [],
+      "candidate_log": [
+        {
+          "page_number": 133,
+          "line_index": 0,
+          "raw_candidate_number": 8,
+          "raw_candidate_title": "Chapter Five Secondary Markets",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 134,
+          "line_index": 0,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Trading Venues",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Trading Venues",
+          "score": 1.0
+        },
+        {
+          "page_number": 136,
+          "line_index": 0,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Regulated markets - these are basically stock exchanges.",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 136,
+          "line_index": 1,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Multilateral trading facilities (MTFs) - these are systems other than regulated",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Methods of Trading and Participants",
+          "score": 0.2982
+        },
+        {
+          "page_number": 136,
+          "line_index": 5,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "Systematic internalisers (SIs) - these are investment firms (such as investment",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Stock Exchanges",
+          "score": 0.1489
+        },
+        {
+          "page_number": 139,
+          "line_index": 0,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Methods of Trading and Participants",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Methods of Trading and Participants",
+          "score": 1.0
+        },
+        {
+          "page_number": 144,
+          "line_index": 0,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "Stock Exchanges",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Stock Exchanges",
+          "score": 1.0
+        },
+        {
+          "page_number": 149,
+          "line_index": 31,
+          "raw_candidate_number": 4,
+          "raw_candidate_title": "Indices",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Indicies",
+          "score": 0.9333
+        },
+        {
+          "page_number": 150,
+          "line_index": 37,
+          "raw_candidate_number": 60,
+          "raw_candidate_title": "years and consists of 225 stocks in the first section of the Tokyo Stock Exchange. The",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 151,
+          "line_index": 22,
+          "raw_candidate_number": 30,
+          "raw_candidate_title": "large US companies selected by",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 151,
+          "line_index": 31,
+          "raw_candidate_number": 225,
+          "raw_candidate_title": "large and regularly traded",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 152,
+          "line_index": 8,
+          "raw_candidate_number": 40,
+          "raw_candidate_title": "(CAC quarante)",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 152,
+          "line_index": 22,
+          "raw_candidate_number": 30,
+          "raw_candidate_title": "December 1987 and it",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 156,
+          "line_index": 6,
+          "raw_candidate_number": 5,
+          "raw_candidate_title": "Government Bond Markets",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Government Bond",
+          "score": 0.7895
+        },
+        {
+          "page_number": 156,
+          "line_index": 12,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "The government's issuing agency.",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 156,
+          "line_index": 13,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Primary dealers - such as gilt-edged market makers (GEMMs) in the UK.",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 156,
+          "line_index": 14,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "Broker-dealers.",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 156,
+          "line_index": 15,
+          "raw_candidate_number": 4,
+          "raw_candidate_title": "Inter-dealer brokers.",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 161,
+          "line_index": 17,
+          "raw_candidate_number": 30,
+          "raw_candidate_title": "and 40 years.",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 161,
+          "line_index": 19,
+          "raw_candidate_number": 6,
+          "raw_candidate_title": "Corporate Bond Markets",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Corporate Bond Markets",
+          "score": 1.0
+        },
+        {
+          "page_number": 163,
+          "line_index": 18,
+          "raw_candidate_number": 7,
+          "raw_candidate_title": "Dealing Methods",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Dealing Methods",
+          "score": 1.0
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "chapter_number": 6,
+      "chapter_name": "Chapter Six - Corporate Actions",
+      "page_start": 166,
+      "page_end": 191,
+      "expected_sections": [
+        {
+          "section_number": 1,
+          "section_title": "Income Events"
+        },
+        {
+          "section_number": 2,
+          "section_title": "Capital Events"
+        },
+        {
+          "section_number": 3,
+          "section_title": "Capital Raising Events"
+        },
+        {
+          "section_number": 4,
+          "section_title": "Share Capital and Changes to Share Ownership"
+        }
+      ],
+      "detected_sections": [
+        {
+          "section_number": 1,
+          "section_title": "Income Events",
+          "matched_title": "Income Events",
+          "page_number": 167,
+          "score": 1.0
+        },
+        {
+          "section_number": 2,
+          "section_title": "Capital Events",
+          "matched_title": "Capital Events",
+          "page_number": 169,
+          "score": 1.0
+        },
+        {
+          "section_number": 3,
+          "section_title": "Capital Raising Events",
+          "matched_title": "Capital Raising Events",
+          "page_number": 177,
+          "score": 1.0
+        },
+        {
+          "section_number": 4,
+          "section_title": "Share Capital and Changes to Share Ownership",
+          "matched_title": "Share Capital and Changes to Share",
+          "page_number": 186,
+          "score": 0.8718
+        }
+      ],
+      "missing_sections": [],
+      "candidate_log": [
+        {
+          "page_number": 167,
+          "line_index": 8,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Income Events",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Income Events",
+          "score": 1.0
+        },
+        {
+          "page_number": 168,
+          "line_index": 38,
+          "raw_candidate_number": 15,
+          "raw_candidate_title": "Aug 2025",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 168,
+          "line_index": 39,
+          "raw_candidate_number": 15,
+          "raw_candidate_title": "Aug 2025",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 168,
+          "line_index": 40,
+          "raw_candidate_number": 10,
+          "raw_candidate_title": "Sept 2025",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 169,
+          "line_index": 82,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Capital Events",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Capital Events",
+          "score": 1.0
+        },
+        {
+          "page_number": 176,
+          "line_index": 19,
+          "raw_candidate_number": 4,
+          "raw_candidate_title": "million $1",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 176,
+          "line_index": 23,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "million $2",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 177,
+          "line_index": 20,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "Capital Raising Events",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Capital Raising Events",
+          "score": 1.0
+        },
+        {
+          "page_number": 178,
+          "line_index": 27,
+          "raw_candidate_number": 400,
+          "raw_candidate_title": "(4%)",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 178,
+          "line_index": 29,
+          "raw_candidate_number": 800,
+          "raw_candidate_title": "(4%)",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 179,
+          "line_index": 36,
+          "raw_candidate_number": 12,
+          "raw_candidate_title": "June 2024 National Grid plc",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 186,
+          "line_index": 6,
+          "raw_candidate_number": 222,
+          "raw_candidate_title": "new shares, accompanied by the tiny cash gain of 60p on the proceeds, the investor is in",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 186,
+          "line_index": 13,
+          "raw_candidate_number": 4,
+          "raw_candidate_title": "Share Capital and Changes to Share",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Share Capital and Changes to Share Ownership",
+          "score": 0.8718
+        },
+        {
+          "page_number": 186,
+          "line_index": 24,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "When the company has reduced its activities (perhaps having sold a major part of its",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Income Events",
+          "score": 0.1443
+        },
+        {
+          "page_number": 186,
+          "line_index": 26,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "When the company wants to reorganise its capital structure to include more debt and",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Capital Events",
+          "score": 0.1856
+        },
+        {
+          "page_number": 190,
+          "line_index": 18,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Increasing market share",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Income Events",
+          "score": 0.2778
+        },
+        {
+          "page_number": 190,
+          "line_index": 21,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Cost savings",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Capital Events",
+          "score": 0.1538
+        },
+        {
+          "page_number": 190,
+          "line_index": 26,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "Expansion into new products and markets",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Capital Raising Events",
+          "score": 0.2951
+        },
+        {
+          "page_number": 190,
+          "line_index": 32,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Overpaying",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Income Events",
+          "score": 0.3478
+        },
+        {
+          "page_number": 190,
+          "line_index": 34,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Cultural clashes",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Capital Events",
+          "score": 0.4
+        },
+        {
+          "page_number": 190,
+          "line_index": 37,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "Diseconomies of scale",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Capital Raising Events",
+          "score": 0.2326
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "chapter_number": 7,
+      "chapter_name": "Chapter Seven - Clearing and Settlement",
+      "page_start": 192,
+      "page_end": 215,
+      "expected_sections": [
+        {
+          "section_number": 1,
+          "section_title": "Introduction to Settlement Systems"
+        },
+        {
+          "section_number": 2,
+          "section_title": "Delivery versus Payment"
+        },
+        {
+          "section_number": 3,
+          "section_title": "Custody"
+        },
+        {
+          "section_number": 4,
+          "section_title": "Registered Title"
+        },
+        {
+          "section_number": 5,
+          "section_title": "Designated and Pooled Nominees"
+        },
+        {
+          "section_number": 6,
+          "section_title": "Cum- and Ex-Dividend"
+        },
+        {
+          "section_number": 7,
+          "section_title": "Continuous Linked Settlement (CLS)"
+        },
+        {
+          "section_number": 8,
+          "section_title": "Distributed Ledger Technology"
+        },
+        {
+          "section_number": 9,
+          "section_title": "Stock Borrowing and Lending"
+        }
+      ],
+      "detected_sections": [
+        {
+          "section_number": 1,
+          "section_title": "Introduction to Settlement Systems",
+          "matched_title": "Introduction to Settlement Systems",
+          "page_number": 193,
+          "score": 1.0
+        },
+        {
+          "section_number": 2,
+          "section_title": "Delivery versus Payment",
+          "matched_title": "Delivery versus Payment",
+          "page_number": 195,
+          "score": 1.0
+        },
+        {
+          "section_number": 3,
+          "section_title": "Custody",
+          "matched_title": "Custody",
+          "page_number": 196,
+          "score": 1.0
+        },
+        {
+          "section_number": 4,
+          "section_title": "Registered Title",
+          "matched_title": "Registered Title",
+          "page_number": 201,
+          "score": 1.0
+        },
+        {
+          "section_number": 5,
+          "section_title": "Designated and Pooled Nominees",
+          "matched_title": "Designated and Pooled Nominees",
+          "page_number": 202,
+          "score": 1.0
+        },
+        {
+          "section_number": 6,
+          "section_title": "Cum- and Ex-Dividend",
+          "matched_title": "Cum- and Ex-Dividend",
+          "page_number": 205,
+          "score": 1.0
+        },
+        {
+          "section_number": 7,
+          "section_title": "Continuous Linked Settlement (CLS)",
+          "matched_title": "Continuous Linked Settlement (CLS)",
+          "page_number": 207,
+          "score": 1.0
+        },
+        {
+          "section_number": 8,
+          "section_title": "Distributed Ledger Technology",
+          "matched_title": "Distributed Ledger Technology",
+          "page_number": 208,
+          "score": 1.0
+        },
+        {
+          "section_number": 9,
+          "section_title": "Stock Borrowing and Lending",
+          "matched_title": "Stock Borrowing and Lending",
+          "page_number": 209,
+          "score": 1.0
+        }
+      ],
+      "missing_sections": [],
+      "candidate_log": [
+        {
+          "page_number": 193,
+          "line_index": 0,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Introduction to Settlement Systems",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Introduction to Settlement Systems",
+          "score": 1.0
+        },
+        {
+          "page_number": 193,
+          "line_index": 25,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Trading counterparties compare trade details - this may take place bilaterally, via",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 193,
+          "line_index": 35,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Custodians acting on behalf of the buyer and seller will compare settlement",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 195,
+          "line_index": 0,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Delivery versus Payment",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Delivery versus Payment",
+          "score": 1.0
+        },
+        {
+          "page_number": 196,
+          "line_index": 33,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "Custody",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Custody",
+          "score": 1.0
+        },
+        {
+          "page_number": 201,
+          "line_index": 25,
+          "raw_candidate_number": 4,
+          "raw_candidate_title": "Registered Title",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Registered Title",
+          "score": 1.0
+        },
+        {
+          "page_number": 202,
+          "line_index": 13,
+          "raw_candidate_number": 5,
+          "raw_candidate_title": "Designated and Pooled Nominees",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Designated and Pooled Nominees",
+          "score": 1.0
+        },
+        {
+          "page_number": 205,
+          "line_index": 24,
+          "raw_candidate_number": 6,
+          "raw_candidate_title": "Cum- and Ex-Dividend",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Cum- and Ex-Dividend",
+          "score": 1.0
+        },
+        {
+          "page_number": 206,
+          "line_index": 0,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Dividend declared - the company announces its intention to pay a specified dividend",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 206,
+          "line_index": 3,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Record date (also called the books-closed date) - the date on which a copy of the",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Delivery versus Payment",
+          "score": 0.0962
+        },
+        {
+          "page_number": 206,
+          "line_index": 8,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "Ex-dividend date - the first date at which the buyer will not receive the next dividend.",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 206,
+          "line_index": 11,
+          "raw_candidate_number": 4,
+          "raw_candidate_title": "Ex-dividend period - the period from the ex-dividend date up to the dividend",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Registered Title",
+          "score": 0.1304
+        },
+        {
+          "page_number": 206,
+          "line_index": 14,
+          "raw_candidate_number": 5,
+          "raw_candidate_title": "Dividend paid - the date the dividend is paid to shareholder on the record date or",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Designated and Pooled Nominees",
+          "score": 0.1964
+        },
+        {
+          "page_number": 206,
+          "line_index": 18,
+          "raw_candidate_number": 6,
+          "raw_candidate_title": "Ex-dividend period - the period from the ex-dividend date up to the dividend",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Cum- and Ex-Dividend",
+          "score": 0.3125
+        },
+        {
+          "page_number": 207,
+          "line_index": 15,
+          "raw_candidate_number": 7,
+          "raw_candidate_title": "Continuous Linked Settlement (CLS)",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Continuous Linked Settlement (CLS)",
+          "score": 1.0
+        },
+        {
+          "page_number": 208,
+          "line_index": 22,
+          "raw_candidate_number": 8,
+          "raw_candidate_title": "Distributed Ledger Technology",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Distributed Ledger Technology",
+          "score": 1.0
+        },
+        {
+          "page_number": 209,
+          "line_index": 17,
+          "raw_candidate_number": 9,
+          "raw_candidate_title": "Stock Borrowing and Lending",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Stock Borrowing and Lending",
+          "score": 1.0
+        },
+        {
+          "page_number": 215,
+          "line_index": 2,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Accepting lower-quality collateral will typically yield a better return for the collateral-",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 215,
+          "line_index": 4,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Top-grade collateral (eg, high-quality government debt, such as German bunds) is",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Delivery versus Payment",
+          "score": 0.2178
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "chapter_number": 8,
+      "chapter_name": "Chapter Eight - Accounting Analysis",
+      "page_start": 216,
+      "page_end": 254,
+      "expected_sections": [
+        {
+          "section_number": 1,
+          "section_title": "Basic Principles"
+        },
+        {
+          "section_number": 2,
+          "section_title": "The Statement of Financial Position"
+        },
+        {
+          "section_number": 3,
+          "section_title": "The Income Statement/ Statement of Profit and Loss and Other Comprehensive Income"
+        },
+        {
+          "section_number": 4,
+          "section_title": "The Statement of Cash Flows"
+        },
+        {
+          "section_number": 5,
+          "section_title": "Additional Information"
+        },
+        {
+          "section_number": 6,
+          "section_title": "Financial Statement Analysis"
+        }
+      ],
+      "detected_sections": [
+        {
+          "section_number": 1,
+          "section_title": "Basic Principles",
+          "matched_title": "Basic Principles",
+          "page_number": 217,
+          "score": 1.0
+        },
+        {
+          "section_number": 2,
+          "section_title": "The Statement of Financial Position",
+          "matched_title": "The Statement of Financial Position",
+          "page_number": 221,
+          "score": 1.0
+        },
+        {
+          "section_number": 4,
+          "section_title": "The Statement of Cash Flows",
+          "matched_title": "The Statement of Cash Flows",
+          "page_number": 232,
+          "score": 1.0
+        },
+        {
+          "section_number": 5,
+          "section_title": "Additional Information",
+          "matched_title": "Additional Information",
+          "page_number": 239,
+          "score": 1.0
+        },
+        {
+          "section_number": 6,
+          "section_title": "Financial Statement Analysis",
+          "matched_title": "Financial Statement Analysis",
+          "page_number": 240,
+          "score": 1.0
+        }
+      ],
+      "missing_sections": [
+        3
+      ],
+      "candidate_log": [
+        {
+          "page_number": 217,
+          "line_index": 0,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Basic Principles",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Basic Principles",
+          "score": 1.0
+        },
+        {
+          "page_number": 217,
+          "line_index": 20,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "The statement of financial position/balance sheet - this provides a snapshot of the",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Basic Principles",
+          "score": 0.1616
+        },
+        {
+          "page_number": 217,
+          "line_index": 30,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "The income statement - this summarises income (or revenue) that is earned and the",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "The Statement of Financial Position",
+          "score": 0.3621
+        },
+        {
+          "page_number": 218,
+          "line_index": 2,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "A cash flow statement - this statement identifies how much cash the company",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "The Income Statement/ Statement of Profit and Loss and Other Comprehensive Income",
+          "score": 0.3718
+        },
+        {
+          "page_number": 219,
+          "line_index": 3,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Assets - in essence these are items owned or controlled by the company. Technically",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Basic Principles",
+          "score": 0.1429
+        },
+        {
+          "page_number": 219,
+          "line_index": 8,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Liabilities - simplistically, this is money owed by the company to others. Liabilities are",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "The Statement of Financial Position",
+          "score": 0.2114
+        },
+        {
+          "page_number": 219,
+          "line_index": 12,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "Equity - is the amount invested in a business by its owners, plus any earnings made by",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "The Income Statement/ Statement of Profit and Loss and Other Comprehensive Income",
+          "score": 0.3133
+        },
+        {
+          "page_number": 219,
+          "line_index": 14,
+          "raw_candidate_number": 4,
+          "raw_candidate_title": "Revenue - is the sales made by a company. It represents an increase in assets or",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "The Statement of Cash Flows",
+          "score": 0.3396
+        },
+        {
+          "page_number": 219,
+          "line_index": 17,
+          "raw_candidate_number": 5,
+          "raw_candidate_title": "Expenses - are the costs of doing business. Expenses include cost of goods sold, rent",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Additional Information",
+          "score": 0.1714
+        },
+        {
+          "page_number": 221,
+          "line_index": 10,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Goodwill - this is an intangible asset that represents the value of the company's",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Basic Principles",
+          "score": 0.1667
+        },
+        {
+          "page_number": 221,
+          "line_index": 19,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Non-controlling interests - in circumstances when the parent company owns a",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "The Statement of Financial Position",
+          "score": 0.2727
+        },
+        {
+          "page_number": 221,
+          "line_index": 29,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "The Statement of Financial Position",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "The Statement of Financial Position",
+          "score": 1.0
+        },
+        {
+          "page_number": 228,
+          "line_index": 19,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "The Income Statement/ Statement of",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "The Income Statement/ Statement of Profit and Loss and Other Comprehensive Income",
+          "score": 0.5913
+        },
+        {
+          "page_number": 232,
+          "line_index": 34,
+          "raw_candidate_number": 4,
+          "raw_candidate_title": "The Statement of Cash Flows",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "The Statement of Cash Flows",
+          "score": 1.0
+        },
+        {
+          "page_number": 239,
+          "line_index": 19,
+          "raw_candidate_number": 5,
+          "raw_candidate_title": "Additional Information",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Additional Information",
+          "score": 1.0
+        },
+        {
+          "page_number": 240,
+          "line_index": 47,
+          "raw_candidate_number": 6,
+          "raw_candidate_title": "Financial Statement Analysis",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Financial Statement Analysis",
+          "score": 1.0
+        },
+        {
+          "page_number": 250,
+          "line_index": 29,
+          "raw_candidate_number": 12,
+          "raw_candidate_title": "months. Estimates are typically derived as the mean of a select group of analysts, the",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        }
+      ],
+      "warnings": [
+        "missing_sections: [3]"
+      ]
+    },
+    {
+      "chapter_number": 9,
+      "chapter_name": "Chapter Nine - Investment Management",
+      "page_start": 255,
+      "page_end": 353,
+      "expected_sections": [
+        {
+          "section_number": 1,
+          "section_title": "Risk and Reward"
+        },
+        {
+          "section_number": 2,
+          "section_title": "Institutional Investment Advice"
+        },
+        {
+          "section_number": 3,
+          "section_title": "Approaches to Investment"
+        }
+      ],
+      "detected_sections": [
+        {
+          "section_number": 1,
+          "section_title": "Risk and Reward",
+          "matched_title": "Risk and Reward",
+          "page_number": 256,
+          "score": 1.0
+        },
+        {
+          "section_number": 2,
+          "section_title": "Institutional Investment Advice",
+          "matched_title": "Institutional Investment Advice",
+          "page_number": 275,
+          "score": 1.0
+        },
+        {
+          "section_number": 3,
+          "section_title": "Approaches to Investment",
+          "matched_title": "Approaches to Investment",
+          "page_number": 280,
+          "score": 1.0
+        }
+      ],
+      "missing_sections": [],
+      "candidate_log": [
+        {
+          "page_number": 256,
+          "line_index": 0,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Risk and Reward",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Risk and Reward",
+          "score": 1.0
+        },
+        {
+          "page_number": 275,
+          "line_index": 0,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Institutional Investment Advice",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Institutional Investment Advice",
+          "score": 1.0
+        },
+        {
+          "page_number": 279,
+          "line_index": 1,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "Norges Bank Investment Management (NBIM) is the asset management unit of the",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Risk and Reward",
+          "score": 0.1758
+        },
+        {
+          "page_number": 279,
+          "line_index": 10,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "The State Administration of Foreign Exchange (SAFE) is a subsidiary of the People's",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Institutional Investment Advice",
+          "score": 0.2655
+        },
+        {
+          "page_number": 279,
+          "line_index": 16,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "The China Investment Corporation (CIC) is China's flagship SWF with a mission to",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Approaches to Investment",
+          "score": 0.2718
+        },
+        {
+          "page_number": 279,
+          "line_index": 23,
+          "raw_candidate_number": 4,
+          "raw_candidate_title": "Abu Dhabi Investment Authority (ADIA) is the sovereign wealth fund of the Emirate",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 279,
+          "line_index": 27,
+          "raw_candidate_number": 993,
+          "raw_candidate_title": "billion.",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 279,
+          "line_index": 28,
+          "raw_candidate_number": 5,
+          "raw_candidate_title": "The Saudi Arabian Public Investment Fund (PIF) was originally founded in 1971 to",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 279,
+          "line_index": 34,
+          "raw_candidate_number": 6,
+          "raw_candidate_title": "The Kuwait Investment Authority (KIA) manages the Kuwait's shares in major",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 279,
+          "line_index": 40,
+          "raw_candidate_number": 7,
+          "raw_candidate_title": "The Government of Singapore Investment Corporation (GIC) is mandated to",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 279,
+          "line_index": 44,
+          "raw_candidate_number": 8,
+          "raw_candidate_title": "The Qatar Investment Authority (QIA) became widely known during the global",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 280,
+          "line_index": 5,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "Approaches to Investment",
+          "lines_used": 1,
+          "accepted": true,
+          "reason": "accepted",
+          "expected_title": "Approaches to Investment",
+          "score": 1.0
+        },
+        {
+          "page_number": 289,
+          "line_index": 20,
+          "raw_candidate_number": 2025,
+          "raw_candidate_title": "These signatories fall into three sub-groups - asset owners, investment managers and",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 307,
+          "line_index": 0,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "bond with a 4% coupon, redeemable in five years' time, is currently trading at 105. Which of the",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 307,
+          "line_index": 12,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "Which best describes the purpose of stabilisation in the context of an initial public offering (IPO)?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "looks_like_prose_not_heading",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 307,
+          "line_index": 25,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "The risk-free rate of return is best described as the rate of return:",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Approaches to Investment",
+          "score": 0.2609
+        },
+        {
+          "page_number": 307,
+          "line_index": 35,
+          "raw_candidate_number": 4,
+          "raw_candidate_title": "What is the maximum period during which a special ex trade can normally be transacted and",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 307,
+          "line_index": 46,
+          "raw_candidate_number": 5,
+          "raw_candidate_title": "The exchange rate on which of the following currency pairs is considered a cross rate?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 308,
+          "line_index": 0,
+          "raw_candidate_number": 6,
+          "raw_candidate_title": "How does continuous linked settlement (CLS) reduce the settlement risk for foreign exchange",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 308,
+          "line_index": 11,
+          "raw_candidate_number": 7,
+          "raw_candidate_title": "Which of the following best distinguishes the operations of the New York Stock Exchange",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 308,
+          "line_index": 22,
+          "raw_candidate_number": 8,
+          "raw_candidate_title": "If interest rates were to rise in the UK, what is the most likely effect on the price and yield of",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 308,
+          "line_index": 33,
+          "raw_candidate_number": 9,
+          "raw_candidate_title": "Which of the following ranks lowest in the order of priority in a liquidation?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 308,
+          "line_index": 43,
+          "raw_candidate_number": 10,
+          "raw_candidate_title": "All of the following are true of the foreign exchange market, except:",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 308,
+          "line_index": 54,
+          "raw_candidate_number": 11,
+          "raw_candidate_title": "Which of the following measures is used as a target for the UK Monetary Policy Committee",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 309,
+          "line_index": 0,
+          "raw_candidate_number": 12,
+          "raw_candidate_title": "Under Financial Conduct Authority (FCA) regulations, which of the following is the level at which",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 309,
+          "line_index": 12,
+          "raw_candidate_number": 13,
+          "raw_candidate_title": "Which of the following types of fund typically sees the manager hold a stake in the fund?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 309,
+          "line_index": 22,
+          "raw_candidate_number": 14,
+          "raw_candidate_title": "Which of the following best describes the action that an investor should take in relation to a",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 309,
+          "line_index": 33,
+          "raw_candidate_number": 15,
+          "raw_candidate_title": "£100 nominal of a convertible loan stock carries the right to convert into 50 ordinary shares. The",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 309,
+          "line_index": 45,
+          "raw_candidate_number": 16,
+          "raw_candidate_title": "US Treasury-issued long bonds have maturities of:",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 309,
+          "line_index": 48,
+          "raw_candidate_number": 10,
+          "raw_candidate_title": "years",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 309,
+          "line_index": 50,
+          "raw_candidate_number": 15,
+          "raw_candidate_title": "years",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 309,
+          "line_index": 52,
+          "raw_candidate_number": 30,
+          "raw_candidate_title": "years",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 309,
+          "line_index": 54,
+          "raw_candidate_number": 50,
+          "raw_candidate_title": "years",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 310,
+          "line_index": 0,
+          "raw_candidate_number": 17,
+          "raw_candidate_title": "Which type of security has the characteristic that it is an anonymous, freely transferable share",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 310,
+          "line_index": 11,
+          "raw_candidate_number": 18,
+          "raw_candidate_title": "Private placements which are allowed to proceed without a full prospectus can only be made",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 310,
+          "line_index": 22,
+          "raw_candidate_number": 19,
+          "raw_candidate_title": "Which of the following best describes the income statement?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 310,
+          "line_index": 33,
+          "raw_candidate_number": 20,
+          "raw_candidate_title": "What is the present value of a 4% annual coupon-paying $100 nominal bond with two years to",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 310,
+          "line_index": 44,
+          "raw_candidate_number": 21,
+          "raw_candidate_title": "Which of the following best describes the STRIPS market? It is the market for:",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 310,
+          "line_index": 54,
+          "raw_candidate_number": 22,
+          "raw_candidate_title": "How does a regulated fund differ from an unregulated fund?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 311,
+          "line_index": 0,
+          "raw_candidate_number": 23,
+          "raw_candidate_title": "Which of the following order types used for exchange order books provides some of the",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 311,
+          "line_index": 11,
+          "raw_candidate_number": 24,
+          "raw_candidate_title": "A fund wants to invest in bonds that are relatively risky to capture as high a yield as possible, but",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 311,
+          "line_index": 23,
+          "raw_candidate_number": 25,
+          "raw_candidate_title": "A summary statement of payments and receipts over an accounting period is:",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 311,
+          "line_index": 33,
+          "raw_candidate_number": 26,
+          "raw_candidate_title": "What term is given to the risk that the overall market in general will rise or fall as economic",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 311,
+          "line_index": 44,
+          "raw_candidate_number": 27,
+          "raw_candidate_title": "What is a special purpose vehicle (SPV)?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 312,
+          "line_index": 0,
+          "raw_candidate_number": 28,
+          "raw_candidate_title": "All of the following would be considered examples of capital expenditure, except:",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 312,
+          "line_index": 10,
+          "raw_candidate_number": 29,
+          "raw_candidate_title": "XYZ plc announces a 1 for 4 rights issue. The cum-rights share price is £4.50 and the right",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 312,
+          "line_index": 21,
+          "raw_candidate_number": 30,
+          "raw_candidate_title": "If an investor wishes to avoid the administrative tasks involved with share registration and",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 312,
+          "line_index": 33,
+          "raw_candidate_number": 31,
+          "raw_candidate_title": "In an underwritten event, where share demand is insufficient and there are more shares issued",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 312,
+          "line_index": 44,
+          "raw_candidate_number": 32,
+          "raw_candidate_title": "Which of the following correctly identifies the longest-term debt instrument issued by the",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 313,
+          "line_index": 0,
+          "raw_candidate_number": 33,
+          "raw_candidate_title": "All of the following major stock indices are capitalisation-weighted, except the:",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 313,
+          "line_index": 10,
+          "raw_candidate_number": 34,
+          "raw_candidate_title": "Which entity is responsible for determining the maturities of debt issued by the UK Government",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 313,
+          "line_index": 21,
+          "raw_candidate_number": 35,
+          "raw_candidate_title": "Which of the following arranges deals in investments for retail investors without giving any",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 313,
+          "line_index": 32,
+          "raw_candidate_number": 36,
+          "raw_candidate_title": "An inability for investors to sell a security easily, with a wide spread between bid and ask, is best",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 313,
+          "line_index": 43,
+          "raw_candidate_number": 37,
+          "raw_candidate_title": "Blockchains are typically associated with which one of the following types of asset?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 314,
+          "line_index": 0,
+          "raw_candidate_number": 38,
+          "raw_candidate_title": "Which of the following ratios effectively provides a yield for the whole company being",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 314,
+          "line_index": 11,
+          "raw_candidate_number": 39,
+          "raw_candidate_title": "Which of the following best describes the purpose of the primary market?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 314,
+          "line_index": 23,
+          "raw_candidate_number": 40,
+          "raw_candidate_title": "Which of the following measures of profit is stated after deduction of only the cost of goods",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 314,
+          "line_index": 34,
+          "raw_candidate_number": 41,
+          "raw_candidate_title": "Which of the following combinations of two shares in a portfolio will give zero diversification",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 314,
+          "line_index": 45,
+          "raw_candidate_number": 42,
+          "raw_candidate_title": "Which of the following holds ownership via a nominee name with a unique identifier for each",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 315,
+          "line_index": 0,
+          "raw_candidate_number": 43,
+          "raw_candidate_title": "Which of the following clearing and settlement models involves gross settlement of securities",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 315,
+          "line_index": 11,
+          "raw_candidate_number": 44,
+          "raw_candidate_title": "Which of the following best describes the straight line method of depreciation?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 315,
+          "line_index": 24,
+          "raw_candidate_number": 45,
+          "raw_candidate_title": "Agreeing procedures for settling a transaction typically forms part of which stage of the",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 315,
+          "line_index": 35,
+          "raw_candidate_number": 46,
+          "raw_candidate_title": "Which of the following types of corporate debt is likely to offer the highest rate of interest?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 315,
+          "line_index": 45,
+          "raw_candidate_number": 47,
+          "raw_candidate_title": "Which of the following would form part of a passive rather than an active portfolio management",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 316,
+          "line_index": 0,
+          "raw_candidate_number": 48,
+          "raw_candidate_title": "Which of the following measures is the same as the internal rate of return of a bond?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 316,
+          "line_index": 10,
+          "raw_candidate_number": 49,
+          "raw_candidate_title": "Which of the following is the standard settlement timetable for equity transactions in the US?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 316,
+          "line_index": 20,
+          "raw_candidate_number": 50,
+          "raw_candidate_title": "Becker inc shares are trading at 90 cents. Becker decides to undertake a reverse stock split with",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 316,
+          "line_index": 31,
+          "raw_candidate_number": 51,
+          "raw_candidate_title": "Which of the following is a passive strategy for investing in bonds to meet a future liability?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 316,
+          "line_index": 41,
+          "raw_candidate_number": 52,
+          "raw_candidate_title": "An investment bank is organising the execution of client orders on its own account on a frequent,",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 317,
+          "line_index": 0,
+          "raw_candidate_number": 53,
+          "raw_candidate_title": "If demand for a new issue is insufficient, who typically buys the remaining shares?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 317,
+          "line_index": 10,
+          "raw_candidate_number": 54,
+          "raw_candidate_title": "A company has a 1-for-3 rights issue at £2.00 per share. Immediately before the announcement",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 317,
+          "line_index": 21,
+          "raw_candidate_number": 55,
+          "raw_candidate_title": "How frequently are coupons paid on German Government bunds?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 317,
+          "line_index": 31,
+          "raw_candidate_number": 56,
+          "raw_candidate_title": "The following are reasons for scrip issues, except:",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 317,
+          "line_index": 41,
+          "raw_candidate_number": 57,
+          "raw_candidate_title": "The following are terms used to describe off-exchange trading venues where stocks are traded",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 317,
+          "line_index": 52,
+          "raw_candidate_number": 58,
+          "raw_candidate_title": "When the yield curve is described as inverted, which of the following is most likely to be true?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 318,
+          "line_index": 0,
+          "raw_candidate_number": 59,
+          "raw_candidate_title": "How does the majority of corporate bond secondary market trading take place?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 318,
+          "line_index": 10,
+          "raw_candidate_number": 60,
+          "raw_candidate_title": "A medium-term note that is sold to an investor after the investor requests a certain quantity",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 318,
+          "line_index": 21,
+          "raw_candidate_number": 61,
+          "raw_candidate_title": "If a company writes an option to issue more than a base number of shares in an initial public",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 318,
+          "line_index": 32,
+          "raw_candidate_number": 62,
+          "raw_candidate_title": "Which government issues BTFs into its money markets?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 318,
+          "line_index": 42,
+          "raw_candidate_number": 63,
+          "raw_candidate_title": "Which of the following is a cash flow that impacts the equity, but not the enterprise?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 318,
+          "line_index": 52,
+          "raw_candidate_number": 64,
+          "raw_candidate_title": "A hybrid trading system:",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 319,
+          "line_index": 0,
+          "raw_candidate_number": 65,
+          "raw_candidate_title": "Which of the following best describes the dirty price of a bond?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 319,
+          "line_index": 10,
+          "raw_candidate_number": 66,
+          "raw_candidate_title": "A bond issued by VPN plc pays a 4% coupon and redeems in five years. It also provides the holder",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 319,
+          "line_index": 22,
+          "raw_candidate_number": 67,
+          "raw_candidate_title": "Which of the following is generally considered to be most risky?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 319,
+          "line_index": 32,
+          "raw_candidate_number": 68,
+          "raw_candidate_title": "A preference share that will carry forward the right to dividends unpaid and can also be bought",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 319,
+          "line_index": 43,
+          "raw_candidate_number": 69,
+          "raw_candidate_title": "Which one of the following is most involved in the due diligence of the prospectus for a new issue",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 319,
+          "line_index": 54,
+          "raw_candidate_number": 70,
+          "raw_candidate_title": "What particular issue only crops up in a set of accounts for a group of companies?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 320,
+          "line_index": 0,
+          "raw_candidate_number": 71,
+          "raw_candidate_title": "The lowest yielding bonds are likely to come from an issuer rated at:",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 320,
+          "line_index": 10,
+          "raw_candidate_number": 72,
+          "raw_candidate_title": "A client of a stockbroking firm is considering purchasing shares in an already listed company for",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 320,
+          "line_index": 21,
+          "raw_candidate_number": 73,
+          "raw_candidate_title": "A company has a 1-for-5 rights issue at £3.00 per share. Immediately before the announcement",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 320,
+          "line_index": 32,
+          "raw_candidate_number": 74,
+          "raw_candidate_title": "Which of the following is the name of the German Government bond that is issued with a five-",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 320,
+          "line_index": 43,
+          "raw_candidate_number": 75,
+          "raw_candidate_title": "Which of the following best describes stabilisation?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 320,
+          "line_index": 53,
+          "raw_candidate_number": 76,
+          "raw_candidate_title": "Dale inc shares are currently trading at $120 each. Dale decides it is appropriate to split the",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 321,
+          "line_index": 0,
+          "raw_candidate_number": 77,
+          "raw_candidate_title": "Which of the following US equity indices would give more influence to a higher-priced stock,",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 321,
+          "line_index": 11,
+          "raw_candidate_number": 78,
+          "raw_candidate_title": "Which of the following is true of a trade executed via an inter-dealer broker (IDB)?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 321,
+          "line_index": 21,
+          "raw_candidate_number": 79,
+          "raw_candidate_title": "A company has two types of share in issue: 'A' and 'B' shares. Both classes of share have voting",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 321,
+          "line_index": 35,
+          "raw_candidate_number": 80,
+          "raw_candidate_title": "What is the term typically used for an issue of securities that involves marketing to a preselected",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 321,
+          "line_index": 46,
+          "raw_candidate_number": 81,
+          "raw_candidate_title": "Spencer plc's 4% ten-year bonds are yielding a 45 basis points spread over the relevant ten- year",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 322,
+          "line_index": 0,
+          "raw_candidate_number": 82,
+          "raw_candidate_title": "The allocation of the estimated cost of an intangible asset as it is used up over its useful",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 322,
+          "line_index": 11,
+          "raw_candidate_number": 83,
+          "raw_candidate_title": "If bond A has a significantly higher modified duration than bond B, which of the following is",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 322,
+          "line_index": 22,
+          "raw_candidate_number": 84,
+          "raw_candidate_title": "A fund manager wishing to hedge exposure to risk arising from long equity positions is most",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 322,
+          "line_index": 33,
+          "raw_candidate_number": 85,
+          "raw_candidate_title": "How is cash at the bank normally classified within a company's statement of financial position?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 322,
+          "line_index": 43,
+          "raw_candidate_number": 86,
+          "raw_candidate_title": "Which of the following types of organisation typically offers corporate finance advice, securities",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 323,
+          "line_index": 0,
+          "raw_candidate_number": 87,
+          "raw_candidate_title": "In a large new listing, which of the following is the term for the firm that book builds?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 323,
+          "line_index": 10,
+          "raw_candidate_number": 88,
+          "raw_candidate_title": "A company has reduced its activities and wants to reorganise its capital structure to include more",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 323,
+          "line_index": 21,
+          "raw_candidate_number": 89,
+          "raw_candidate_title": "Which of the following is the type of order that does not specify a price?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 323,
+          "line_index": 31,
+          "raw_candidate_number": 90,
+          "raw_candidate_title": "Which of the following best describes the features of subordinated debt?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 323,
+          "line_index": 41,
+          "raw_candidate_number": 91,
+          "raw_candidate_title": "What is the normal priority that is given to orders on an order-driven trading system?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 323,
+          "line_index": 51,
+          "raw_candidate_number": 92,
+          "raw_candidate_title": "The foreign exchange market is best described as which of the following?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 324,
+          "line_index": 0,
+          "raw_candidate_number": 93,
+          "raw_candidate_title": "Under an offer for sale agreement, what party is responsible for soliciting potential investors",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 324,
+          "line_index": 11,
+          "raw_candidate_number": 94,
+          "raw_candidate_title": "Which of the following institutional investors is most likely to hold the highest proportion of",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 324,
+          "line_index": 22,
+          "raw_candidate_number": 95,
+          "raw_candidate_title": "All of the following are expenses charged in the income statement, except:",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 324,
+          "line_index": 32,
+          "raw_candidate_number": 96,
+          "raw_candidate_title": "A share premium account is classed within what sub-element of equity?",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 324,
+          "line_index": 42,
+          "raw_candidate_number": 97,
+          "raw_candidate_title": "Combining securities with a less than perfect positive correlation in a portfolio will remove",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 324,
+          "line_index": 53,
+          "raw_candidate_number": 98,
+          "raw_candidate_title": "All of the following are headings within a cash flow statement, except:",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 325,
+          "line_index": 0,
+          "raw_candidate_number": 99,
+          "raw_candidate_title": "A company applies for a listing and becomes listed without selling any shares in the primary or",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 325,
+          "line_index": 11,
+          "raw_candidate_number": 100,
+          "raw_candidate_title": "All of the following are generally viewed as key benefits of utilising a central counterparty,",
+          "lines_used": 1,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 326,
+          "line_index": 1,
+          "raw_candidate_number": 1,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Risk and Reward",
+          "score": 0.125
+        },
+        {
+          "page_number": 326,
+          "line_index": 6,
+          "raw_candidate_number": 2,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Institutional Investment Advice",
+          "score": 0.0625
+        },
+        {
+          "page_number": 326,
+          "line_index": 13,
+          "raw_candidate_number": 3,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "title_similarity_too_low",
+          "expected_title": "Approaches to Investment",
+          "score": 0.0
+        },
+        {
+          "page_number": 326,
+          "line_index": 18,
+          "raw_candidate_number": 4,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 326,
+          "line_index": 23,
+          "raw_candidate_number": 5,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 326,
+          "line_index": 27,
+          "raw_candidate_number": 6,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 326,
+          "line_index": 31,
+          "raw_candidate_number": 7,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 326,
+          "line_index": 36,
+          "raw_candidate_number": 8,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 326,
+          "line_index": 41,
+          "raw_candidate_number": 9,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 326,
+          "line_index": 45,
+          "raw_candidate_number": 10,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 327,
+          "line_index": 0,
+          "raw_candidate_number": 11,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 327,
+          "line_index": 6,
+          "raw_candidate_number": 12,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 327,
+          "line_index": 10,
+          "raw_candidate_number": 13,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 327,
+          "line_index": 15,
+          "raw_candidate_number": 14,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 327,
+          "line_index": 20,
+          "raw_candidate_number": 15,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 327,
+          "line_index": 27,
+          "raw_candidate_number": 16,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 327,
+          "line_index": 31,
+          "raw_candidate_number": 17,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 327,
+          "line_index": 35,
+          "raw_candidate_number": 18,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 327,
+          "line_index": 40,
+          "raw_candidate_number": 19,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 327,
+          "line_index": 45,
+          "raw_candidate_number": 20,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 328,
+          "line_index": 0,
+          "raw_candidate_number": 21,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 328,
+          "line_index": 5,
+          "raw_candidate_number": 22,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 328,
+          "line_index": 11,
+          "raw_candidate_number": 23,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 328,
+          "line_index": 16,
+          "raw_candidate_number": 24,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 328,
+          "line_index": 21,
+          "raw_candidate_number": 25,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 328,
+          "line_index": 26,
+          "raw_candidate_number": 26,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 328,
+          "line_index": 31,
+          "raw_candidate_number": 27,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 328,
+          "line_index": 39,
+          "raw_candidate_number": 28,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 328,
+          "line_index": 45,
+          "raw_candidate_number": 29,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 328,
+          "line_index": 49,
+          "raw_candidate_number": 30,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 329,
+          "line_index": 0,
+          "raw_candidate_number": 31,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 329,
+          "line_index": 6,
+          "raw_candidate_number": 32,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 329,
+          "line_index": 10,
+          "raw_candidate_number": 33,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 329,
+          "line_index": 15,
+          "raw_candidate_number": 34,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 329,
+          "line_index": 20,
+          "raw_candidate_number": 35,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 329,
+          "line_index": 25,
+          "raw_candidate_number": 36,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 329,
+          "line_index": 30,
+          "raw_candidate_number": 37,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 329,
+          "line_index": 36,
+          "raw_candidate_number": 38,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 329,
+          "line_index": 40,
+          "raw_candidate_number": 39,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 329,
+          "line_index": 45,
+          "raw_candidate_number": 40,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 329,
+          "line_index": 49,
+          "raw_candidate_number": 41,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 330,
+          "line_index": 0,
+          "raw_candidate_number": 42,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 330,
+          "line_index": 5,
+          "raw_candidate_number": 43,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 330,
+          "line_index": 12,
+          "raw_candidate_number": 44,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 330,
+          "line_index": 17,
+          "raw_candidate_number": 45,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 330,
+          "line_index": 22,
+          "raw_candidate_number": 46,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 330,
+          "line_index": 28,
+          "raw_candidate_number": 47,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 330,
+          "line_index": 34,
+          "raw_candidate_number": 48,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 330,
+          "line_index": 40,
+          "raw_candidate_number": 49,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 330,
+          "line_index": 45,
+          "raw_candidate_number": 50,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 330,
+          "line_index": 49,
+          "raw_candidate_number": 51,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 331,
+          "line_index": 0,
+          "raw_candidate_number": 52,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 331,
+          "line_index": 5,
+          "raw_candidate_number": 53,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 331,
+          "line_index": 10,
+          "raw_candidate_number": 54,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 331,
+          "line_index": 31,
+          "raw_candidate_number": 55,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 331,
+          "line_index": 35,
+          "raw_candidate_number": 56,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 331,
+          "line_index": 40,
+          "raw_candidate_number": 57,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 331,
+          "line_index": 45,
+          "raw_candidate_number": 58,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 331,
+          "line_index": 50,
+          "raw_candidate_number": 59,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 331,
+          "line_index": 55,
+          "raw_candidate_number": 60,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 332,
+          "line_index": 0,
+          "raw_candidate_number": 61,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 332,
+          "line_index": 5,
+          "raw_candidate_number": 62,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 332,
+          "line_index": 9,
+          "raw_candidate_number": 63,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 332,
+          "line_index": 14,
+          "raw_candidate_number": 64,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 332,
+          "line_index": 18,
+          "raw_candidate_number": 65,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 332,
+          "line_index": 22,
+          "raw_candidate_number": 66,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 332,
+          "line_index": 27,
+          "raw_candidate_number": 67,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 332,
+          "line_index": 32,
+          "raw_candidate_number": 68,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 332,
+          "line_index": 37,
+          "raw_candidate_number": 69,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 332,
+          "line_index": 43,
+          "raw_candidate_number": 70,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 332,
+          "line_index": 47,
+          "raw_candidate_number": 71,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 333,
+          "line_index": 0,
+          "raw_candidate_number": 72,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 333,
+          "line_index": 5,
+          "raw_candidate_number": 73,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 333,
+          "line_index": 25,
+          "raw_candidate_number": 74,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 333,
+          "line_index": 30,
+          "raw_candidate_number": 75,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 333,
+          "line_index": 35,
+          "raw_candidate_number": 76,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 333,
+          "line_index": 40,
+          "raw_candidate_number": 77,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 333,
+          "line_index": 47,
+          "raw_candidate_number": 78,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 333,
+          "line_index": 52,
+          "raw_candidate_number": 79,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 334,
+          "line_index": 0,
+          "raw_candidate_number": 80,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 334,
+          "line_index": 5,
+          "raw_candidate_number": 81,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 334,
+          "line_index": 10,
+          "raw_candidate_number": 82,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 334,
+          "line_index": 15,
+          "raw_candidate_number": 83,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 334,
+          "line_index": 19,
+          "raw_candidate_number": 84,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 334,
+          "line_index": 24,
+          "raw_candidate_number": 85,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 334,
+          "line_index": 28,
+          "raw_candidate_number": 86,
+          "raw_candidate_title": "C",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 334,
+          "line_index": 33,
+          "raw_candidate_number": 87,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 334,
+          "line_index": 38,
+          "raw_candidate_number": 88,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 334,
+          "line_index": 45,
+          "raw_candidate_number": 89,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 334,
+          "line_index": 49,
+          "raw_candidate_number": 90,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 335,
+          "line_index": 0,
+          "raw_candidate_number": 91,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 335,
+          "line_index": 4,
+          "raw_candidate_number": 92,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 335,
+          "line_index": 10,
+          "raw_candidate_number": 93,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 335,
+          "line_index": 17,
+          "raw_candidate_number": 94,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 335,
+          "line_index": 22,
+          "raw_candidate_number": 95,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 335,
+          "line_index": 27,
+          "raw_candidate_number": 96,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 335,
+          "line_index": 32,
+          "raw_candidate_number": 97,
+          "raw_candidate_title": "A",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 335,
+          "line_index": 36,
+          "raw_candidate_number": 98,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 335,
+          "line_index": 41,
+          "raw_candidate_number": 99,
+          "raw_candidate_title": "D",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        },
+        {
+          "page_number": 335,
+          "line_index": 46,
+          "raw_candidate_number": 100,
+          "raw_candidate_title": "B",
+          "lines_used": 2,
+          "accepted": false,
+          "reason": "section_number_not_expected_for_chapter",
+          "expected_title": null,
+          "score": null
+        }
+      ],
+      "warnings": []
+    }
+  ]
+}
