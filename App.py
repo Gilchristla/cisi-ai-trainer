@@ -6,6 +6,11 @@ from collections import defaultdict
 from datetime import datetime, timedelta
 from typing import Dict, List, Any, Tuple, Optional
 
+from supabase import create_client
+SUPABASE_URL = st.secrets["SUPABASE_URL"]
+SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
+supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
+
 import streamlit as st
 from openai import OpenAI
 
@@ -438,7 +443,7 @@ def persist_quiz_results(
             "correct_answer": correct,
             "is_correct": is_correct,
         }
-        append_json_record(ATTEMPTS_FILE, attempt_record)
+        supabase.table("attempts").insert(attempt_record).execute()
 
         if not is_correct:
             wrong_record = {
@@ -457,7 +462,7 @@ def persist_quiz_results(
                 "selected_option_feedback": q.get("option_feedback", {}).get(selected, "") if selected else "",
                 "all_option_feedback": q.get("option_feedback", {}),
             }
-            append_json_record(WRONG_FILE, wrong_record)
+            supabase.table("wrong_answers").insert(wrong_record).execute()
 
         update_review_schedule_for_section(
             state=review_state,
