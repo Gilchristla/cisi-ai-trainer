@@ -27,43 +27,6 @@ except Exception:
 # ------------------------------------------------------------
 def login_page():
     supabase = get_supabase()
-
-def init_auth_state():
-    defaults = {
-        "user": None,
-        "profile": None,
-    }
-    for k, v in defaults.items():
-        if k not in st.session_state:
-            st.session_state[k] = v
-
-
-def ensure_profile_exists(supabase, user, email: str, display_name: Optional[str] = None):
-    payload = {
-        "id": user.id,
-        "email": email,
-        "display_name": display_name or email.split("@")[0],
-    }
-    supabase.table("profiles").upsert(payload).execute()
-
-
-def load_current_profile(supabase, user_id: str):
-    result = (
-        supabase
-        .table("profiles")
-        .select("*")
-        .eq("id", user_id)
-        .single()
-        .execute()
-    )
-    return result.data
-
-
-def sign_out_user():
-    st.session_state.user = None
-    st.session_state.profile = None
-    st.rerun()
-    
     st.title("CISI AI Trainer")
     st.subheader("Sign in or create an account")
 
@@ -118,6 +81,42 @@ def sign_out_user():
 
         except Exception as e:
             st.error(f"Authentication failed: {e}")
+
+def init_auth_state():
+    defaults = {
+        "user": None,
+        "profile": None,
+    }
+    for k, v in defaults.items():
+        if k not in st.session_state:
+            st.session_state[k] = v
+
+
+def ensure_profile_exists(supabase, user, email: str, display_name: Optional[str] = None):
+    payload = {
+        "id": user.id,
+        "email": email,
+        "display_name": display_name or email.split("@")[0],
+    }
+    supabase.table("profiles").upsert(payload).execute()
+
+
+def load_current_profile(supabase, user_id: str):
+    result = (
+        supabase
+        .table("profiles")
+        .select("*")
+        .eq("id", user_id)
+        .single()
+        .execute()
+    )
+    return result.data
+
+
+def sign_out_user():
+    st.session_state.user = None
+    st.session_state.profile = None
+    st.rerun()
 
 # ------------------------------------------------------------
 # FILE PATHS
@@ -520,6 +519,7 @@ def persist_quiz_results(
 ):
     timestamp = datetime.now().isoformat()
     review_state = load_review_state()
+    supabase = get_supabase()
 
     for i, q in enumerate(questions, start=1):
         qid = f"q_{i}"
