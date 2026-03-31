@@ -9,10 +9,10 @@ from typing import Dict, List, Any, Tuple, Optional
 import streamlit as st
 from openai import OpenAI
 
-from supabase import create_client
-SUPABASE_URL = st.secrets["SUPABASE_URL"]
-SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
-supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
+def get_supabase():
+    url = st.secrets["SUPABASE_URL"]
+    key = st.secrets["SUPABASE_KEY"]
+    return create_client(url, key)
 
 # Optional live countdown support.
 # The app still works without this package.
@@ -22,6 +22,30 @@ try:
 except Exception:
     AUTOREFRESH_AVAILABLE = False
 
+# ------------------------------------------------------------
+# Login
+# ------------------------------------------------------------
+def login_page():
+    supabase = get_supabase()
+
+    st.title("Login")
+
+    email = st.text_input("Email")
+    password = st.text_input("Password", type="password")
+
+    if st.button("Login"):
+        try:
+            res = supabase.auth.sign_in_with_password({
+                "email": email,
+                "password": password
+            })
+
+            st.session_state.user = res.user
+            st.success("Logged in")
+            st.rerun()
+
+        except Exception as e:
+            st.error(f"Login failed: {e}")
 
 # ------------------------------------------------------------
 # FILE PATHS
@@ -432,6 +456,7 @@ def persist_quiz_results(
         is_correct = selected == correct
 
         attempt_record = {
+            "user_id": st.session_state.user.id,
             "quiz_id": quiz_id,
             "timestamp": timestamp,
             "chapter_name": q.get("chapter_name"),
@@ -731,6 +756,9 @@ def render_exam_timer():
 # MAIN APP
 # ------------------------------------------------------------
 def main():
+ if "user" not in st.session_state:
+    login_page()
+    st.stop()
     st.set_page_config(page_title="CISI Question Generator", layout="wide")
     init_session_state()
 
