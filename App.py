@@ -28,24 +28,96 @@ except Exception:
 def login_page():
     supabase = get_supabase()
 
-    st.title("Login")
+def init_auth_state():
+    defaults = {
+        "user": None,
+        "profile": None,
+    }
+    for k, v in defaults.items():
+        if k not in st.session_state:
+            st.session_state[k] = v
+
+
+def ensure_profile_exists(supabase, user, email: str, display_name: Optional[str] = None):
+    payload = {
+        "id": user.id,
+        "email": email,
+        "display_name": display_name or email.split("@")[0],
+    }
+    supabase.table("profiles").upsert(payload).execute()
+
+
+def load_current_profile(supabase, user_id: str):
+    result = (
+        supabase
+        .table("profiles")
+        .select("*")
+        .eq("id", user_id)
+        .single()
+        .execute()
+    )
+    return result.data
+
+
+def sign_out_user():
+    st.session_state.user = None
+    st.session_state.profile = None
+    st.rerun()
+    
+    st.title("CISI AI Trainer")
+    st.subheader("Sign in or create an account")
+
+    mode = st.radio("Choose action", ["Login", "Sign up"], horizontal=True)
 
     email = st.text_input("Email")
     password = st.text_input("Password", type="password")
 
-    if st.button("Login"):
-        try:
-            res = supabase.auth.sign_in_with_password({
-                "email": email,
-                "password": password
-            })
+    display_name = ""
+    if mode == "Sign up":
+        display_name = st.text_input("Display name")
 
-            st.session_state.user = res.user
-            st.success("Logged in")
-            st.rerun()
+    if st.button(mode):
+        try:
+            if mode == "Sign up":
+                response = supabase.auth.sign_up({
+                    "email": email,
+                    "password": password
+                })
+
+                user = response.user
+                session = response.session
+
+                if user:
+                    ensure_profile_exists(
+                        supabase=supabase,
+                        user=user,
+                        email=email,
+                        display_name=display_name or None,
+                    )
+
+                if session:
+                    st.session_state.user = user
+                    st.session_state.profile = load_current_profile(supabase, user.id)
+                    st.success("Account created and signed in.")
+                    st.rerun()
+                else:
+                    st.success("Account created. If email confirmation is enabled, check your inbox before logging in.")
+
+            else:
+                response = supabase.auth.sign_in_with_password({
+                    "email": email,
+                    "password": password
+                })
+
+                user = response.user
+                st.session_state.user = user
+                st.session_state.profile = load_current_profile(supabase, user.id)
+
+                st.success("Logged in successfully")
+                st.rerun()
 
         except Exception as e:
-            st.error(f"Login failed: {e}")
+            st.error(f"Authentication failed: {e}")
 
 # ------------------------------------------------------------
 # FILE PATHS
@@ -756,12 +828,39 @@ def render_exam_timer():
 # MAIN APP
 # ------------------------------------------------------------
 def main():
- if "user" not in st.session_state:
-    login_page()
-    st.stop()
     st.set_page_config(page_title="CISI Question Generator", layout="wide")
     init_session_state()
+    init_auth_state()
 
+    if not st.session_state.user:
+        login_page()
+        st.stop()
+
+    st.sidebar.markdown("### Account")
+    if st.session_state.profile:
+        st.sidebar.write(f"**User:** {st.session_state.profile.get('display_name')}")
+        st.sidebar.write(f"**Email:** {st.session_state.profile.get('email')}")
+        st.sidebar.write(f"**Role:** {st.session_state.profile.get('role')}")
+    else:
+        st.sidebar.write("Profile not loaded")
+
+    if st.sidebar.button("Sign out"):
+        sign_out_user()
+
+    profile = st.session_state.profile
+
+    if not profile:
+        st.error("No profile found for this account.")
+        st.stop()
+
+    if not profile.get("is_active", True):
+        st.error("Your account is inactive. Contact the administrator.")
+        st.stop()
+
+    if not profile.get("can_generate_quizzes", True):
+        st.error("Your account does not currently have quiz generation enabled.")
+        st.stop()
+    
     st.sidebar.title("Navigation")
     page = st.sidebar.radio(
         "Go to",
