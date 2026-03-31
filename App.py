@@ -14,6 +14,20 @@ def get_supabase():
     key = st.secrets["SUPABASE_KEY"]
     return create_client(url, key)
 
+
+def get_email_redirect_url() -> Optional[str]:
+    """Resolve the post-verification redirect URL used by Supabase email links."""
+    candidates = [
+        st.secrets.get("EMAIL_REDIRECT_URL"),
+        st.secrets.get("APP_URL"),
+        os.getenv("EMAIL_REDIRECT_URL"),
+        os.getenv("APP_URL"),
+    ]
+    for candidate in candidates:
+        if candidate:
+            return candidate.rstrip("/")
+    return None
+
 # Optional live countdown support.
 # The app still works without this package.
 try:
@@ -42,10 +56,16 @@ def login_page():
     if st.button(mode):
         try:
             if mode == "Sign up":
-                response = supabase.auth.sign_up({
+                signup_payload = {
                     "email": email,
-                    "password": password
-                })
+                    "password": password,
+                }
+
+                redirect_url = get_email_redirect_url()
+                if redirect_url:
+                    signup_payload["options"] = {"email_redirect_to": redirect_url}
+
+                response = supabase.auth.sign_up(signup_payload)
 
                 user = response.user
                 session = response.session
@@ -65,6 +85,11 @@ def login_page():
                     st.rerun()
                 else:
                     st.success("Account created. If email confirmation is enabled, check your inbox before logging in.")
+                    if not redirect_url:
+                        st.info(
+                            "Set EMAIL_REDIRECT_URL (or APP_URL) in Streamlit secrets to ensure "
+                            "verification links return to a reachable page."
+                        )
 
             else:
                 response = supabase.auth.sign_in_with_password({
