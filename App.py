@@ -70,15 +70,13 @@ def login_page():
                 user = response.user
                 session = response.session
 
-                if user:
+                if session:
                     ensure_profile_exists(
                         supabase=supabase,
                         user=user,
                         email=email,
                         display_name=display_name or None,
                     )
-
-                if session:
                     st.session_state.user = user
                     st.session_state.profile = load_current_profile(supabase, user.id)
                     st.success("Account created and signed in.")
@@ -98,6 +96,12 @@ def login_page():
                 })
 
                 user = response.user
+                ensure_profile_exists(
+                    supabase=supabase,
+                    user=user,
+                    email=user.email or email,
+                    display_name=None,
+                )
                 st.session_state.user = user
                 st.session_state.profile = load_current_profile(supabase, user.id)
 
