@@ -31,7 +31,7 @@ ATTEMPTS_FILE = "question_attempts.json"
 WRONG_FILE = "wrong_answers.json"
 REVIEW_FILE = "review_schedule.json"
 
-MAX_SOURCE_CHARS = 50000
+MAX_SOURCE_CHARS = 100000
 DEFAULT_EXAM_DURATION_MIN = 30
 
 
