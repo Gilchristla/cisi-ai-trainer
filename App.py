@@ -122,23 +122,10 @@ def init_auth_state():
 
 
 def ensure_profile_exists(supabase, user, email: str, display_name: Optional[str] = None):
-    existing_display_name = None
-    if display_name is None:
-        existing_profile = (
-            supabase
-            .table("profiles")
-            .select("display_name")
-            .eq("id", user.id)
-            .limit(1)
-            .execute()
-        )
-        if existing_profile.data:
-            existing_display_name = existing_profile.data[0].get("display_name")
-
     payload = {
         "id": user.id,
         "email": email,
-        "display_name": display_name or existing_display_name or email.split("@")[0],
+        "display_name": display_name or email.split("@")[0],
     }
     supabase.table("profiles").upsert(payload).execute()
 
