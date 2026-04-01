@@ -96,6 +96,8 @@ def login_page():
                 })
 
                 user = response.user
+                if not user:
+                    raise ValueError("No user returned from login.")
                 ensure_profile_exists(
                     supabase=supabase,
                     user=user,
@@ -115,36 +117,84 @@ def init_auth_state():
     defaults = {
         "user": None,
         "profile": None,
+        "auth_checked": False,
     }
     for k, v in defaults.items():
         if k not in st.session_state:
             st.session_state[k] = v
 
+    if st.session_state.auth_checked:
+        return
+
+    supabase = get_supabase()
+    try:
+        session_response = supabase.auth.get_session()
+        session = getattr(session_response, "session", None)
+        user = getattr(session, "user", None)
+        if user:
+            st.session_state.user = user
+            st.session_state.profile = load_current_profile(supabase, user.id)
+    except Exception:
+        # Keep app available even if auth backend is temporarily unavailable.
+        pass
+    finally:
+        st.session_state.auth_checked = True
+
 
 def ensure_profile_exists(supabase, user, email: str, display_name: Optional[str] = None):
+    if not user:
+        raise ValueError("Cannot ensure profile without an authenticated user.")
+
+    existing = (
+        supabase
+        .table("profiles")
+        .select("id")
+        .eq("id", user.id)
+        .limit(1)
+        .execute()
+    )
+    if existing.data:
+        return
+
     payload = {
         "id": user.id,
         "email": email,
         "display_name": display_name or email.split("@")[0],
     }
-    supabase.table("profiles").upsert(payload).execute()
+    try:
+        supabase.table("profiles").insert(payload).execute()
+    except Exception as e:
+        raise RuntimeError(f"Failed to create profile for user {user.id}: {e}") from e
 
 
 def load_current_profile(supabase, user_id: str):
-    result = (
-        supabase
-        .table("profiles")
-        .select("*")
-        .eq("id", user_id)
-        .single()
-        .execute()
-    )
-    return result.data
+    try:
+        result = (
+            supabase
+            .table("profiles")
+            .select("*")
+            .eq("id", user_id)
+            .limit(1)
+            .execute()
+        )
+        if result.data:
+            return result.data[0]
+        return None
+    except Exception as e:
+        st.error(f"Unable to load profile: {e}")
+        return None
 
 
 def sign_out_user():
+    try:
+        supabase = get_supabase()
+        supabase.auth.sign_out()
+    except Exception:
+        # Clear local state even if remote sign-out fails.
+        pass
     st.session_state.user = None
     st.session_state.profile = None
+    st.session_state.auth_checked = True
     st.rerun()
 
 # ------------------------------------------------------------
