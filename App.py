@@ -230,6 +230,11 @@ def append_json_record(path: str, record: Dict[str, Any]) -> None:
     save_json_file(path, data)
 
 
+def get_current_user_id() -> Optional[str]:
+    user = st.session_state.get("user")
+    return getattr(user, "id", None) if user else None
+
+
 # ------------------------------------------------------------
 # PARSED TEXTBOOK LOADING / GROUPING
 # ------------------------------------------------------------
@@ -541,12 +546,46 @@ def reset_quiz_state():
 # ------------------------------------------------------------
 # ATTEMPT / WRONG ANSWER / REVIEW SAVE LOGIC
 # ------------------------------------------------------------
-def load_review_state() -> Dict[str, Any]:
-    return load_json_file(REVIEW_FILE, {})
+def load_review_state(current_user_id: str) -> Dict[str, Any]:
+    supabase = get_supabase()
+    response = (
+        supabase
+        .table("review_schedule")
+        .select("*")
+        .eq("user_id", current_user_id)
+        .execute()
+    )
+    rows = response.data or []
+    return {
+        section_key(item.get("chapter_name"), item.get("section_number")): item
+        for item in rows
+    }
 
 
-def save_review_state(state: Dict[str, Any]) -> None:
-    save_json_file(REVIEW_FILE, state)
+def save_review_state(state: Dict[str, Any], current_user_id: str) -> None:
+    if not state:
+        return
+
+    supabase = get_supabase()
+    payload = []
+    for item in state.values():
+        payload.append({
+            "user_id": current_user_id,
+            "chapter_name": item.get("chapter_name"),
+            "section_number": item.get("section_number"),
+            "section_title": item.get("section_title"),
+            "stage": item.get("stage", 0),
+            "next_review_at": item.get("next_review_at"),
+            "last_result": item.get("last_result"),
+            "wrong_events": item.get("wrong_events", 0),
+            "correct_events": item.get("correct_events", 0),
+            "updated_at": datetime.now().isoformat(),
+        })
+
+    supabase.table("review_schedule").upsert(
+        payload,
+        on_conflict="user_id,chapter_name,section_number",
+    ).execute()
 
 
 def update_review_schedule_for_section(
@@ -596,8 +635,18 @@ def persist_quiz_results(
     submitted_answers: Dict[str, str],
     quiz_id: str,
 ):
+    current_user_id = get_current_user_id()
+    if not current_user_id:
+        st.error("Cannot save quiz results because no authenticated user is available.")
+        return False
+
     timestamp = datetime.now().isoformat()
-    review_state = load_review_state()
+    try:
+        review_state = load_review_state(current_user_id)
+    except Exception as e:
+        st.error(f"Failed to load review schedule before saving quiz results: {e}")
+        return False
+
     supabase = get_supabase()
 
     for i, q in enumerate(questions, start=1):
@@ -607,7 +656,7 @@ def persist_quiz_results(
         is_correct = selected == correct
 
         attempt_record = {
-            "user_id": st.session_state.user.id,
+            "user_id": current_user_id,
             "quiz_id": quiz_id,
             "timestamp": timestamp,
             "chapter_name": q.get("chapter_name"),
@@ -619,10 +668,15 @@ def persist_quiz_results(
             "correct_answer": correct,
             "is_correct": is_correct,
         }
-        supabase.table("attempts").insert(attempt_record).execute()
+        try:
+            supabase.table("attempts").insert(attempt_record).execute()
+        except Exception as e:
+            st.error(f"Failed to save attempt for question {i}: {e}")
+            return False
 
         if not is_correct:
             wrong_record = {
+                "user_id": current_user_id,
                 "quiz_id": quiz_id,
                 "timestamp": timestamp,
                 "chapter_name": q.get("chapter_name"),
@@ -638,7 +692,11 @@ def persist_quiz_results(
                 "selected_option_feedback": q.get("option_feedback", {}).get(selected, "") if selected else "",
                 "all_option_feedback": q.get("option_feedback", {}),
             }
-            supabase.table("wrong_answers").insert(wrong_record).execute()
+            try:
+                supabase.table("wrong_answers").insert(wrong_record).execute()
+            except Exception as e:
+                st.error(f"Failed to save wrong answer for question {i}: {e}")
+                return False
 
         update_review_schedule_for_section(
             state=review_state,
@@ -648,15 +706,38 @@ def persist_quiz_results(
             was_correct=is_correct,
         )
 
-    save_review_state(review_state)
+    try:
+        save_review_state(review_state, current_user_id)
+    except Exception as e:
+        st.error(f"Failed to save review schedule: {e}")
+        return False
+
+    return True
 
 
 # ------------------------------------------------------------
 # ANALYTICS / WEAK TOPICS / PERFORMANCE
 # ------------------------------------------------------------
 def build_attempt_stats() -> Dict[str, Dict[str, Any]]:
-    attempts = load_json_file(ATTEMPTS_FILE, [])
-    review_state = load_review_state()
+    current_user_id = get_current_user_id()
+    if not current_user_id:
+        return {}
+
+    supabase = get_supabase()
+    attempts_response = (
+        supabase
+        .table("attempts")
+        .select("*")
+        .eq("user_id", current_user_id)
+        .execute()
+    )
+    attempts = attempts_response.data or []
+
+    try:
+        review_state = load_review_state(current_user_id)
+    except Exception as e:
+        st.error(f"Unable to load review schedule: {e}")
+        review_state = {}
 
     stats: Dict[str, Dict[str, Any]] = {}
 
@@ -710,7 +791,24 @@ def build_attempt_stats() -> Dict[str, Dict[str, Any]]:
 
 
 def build_overall_summary() -> Dict[str, Any]:
-    attempts = load_json_file(ATTEMPTS_FILE, [])
+    current_user_id = get_current_user_id()
+    if not current_user_id:
+        return {
+            "total_attempts": 0,
+            "correct": 0,
+            "wrong": 0,
+            "accuracy": None,
+        }
+
+    supabase = get_supabase()
+    attempts_response = (
+        supabase
+        .table("attempts")
+        .select("is_correct")
+        .eq("user_id", current_user_id)
+        .execute()
+    )
+    attempts = attempts_response.data or []
     total = len(attempts)
     correct = sum(1 for a in attempts if a["is_correct"])
     wrong = total - correct
@@ -803,7 +901,21 @@ def select_weak_sections(all_sections: List[Dict[str, Any]], max_sections: int) 
 
 
 def recent_wrong_answers(limit: int = 50) -> List[Dict[str, Any]]:
-    wrongs = load_json_file(WRONG_FILE, [])
+    current_user_id = get_current_user_id()
+    if not current_user_id:
+        return []
+
+    supabase = get_supabase()
+    wrongs_response = (
+        supabase
+        .table("wrong_answers")
+        .select("*")
+        .eq("user_id", current_user_id)
+        .order("timestamp", desc=True)
+        .limit(limit)
+        .execute()
+    )
+    wrongs = wrongs_response.data or []
     wrongs.sort(key=lambda x: x.get("timestamp", ""), reverse=True)
     return wrongs[:limit]
 
@@ -1197,12 +1309,12 @@ def main():
                     st.rerun()
 
             if st.session_state.show_results and not st.session_state.results_saved:
-                persist_quiz_results(
+                save_success = persist_quiz_results(
                     questions=questions,
                     submitted_answers=st.session_state.submitted_answers,
                     quiz_id=st.session_state.quiz_id or str(uuid.uuid4()),
                 )
-                st.session_state.results_saved = True
+                st.session_state.results_saved = save_success
 
             if st.session_state.show_results:
                 score, unanswered = score_answers(questions)
